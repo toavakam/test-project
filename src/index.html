@@ -8,8 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel = "stylesheet" 
-         href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -25,11 +24,10 @@
 
 <body>
   <header>
-    <div class="row bg-light border-bottom">
-    <div class="row container mx-auto">
-      <div class="col-3">
+    <div class="shadow p-1 mb-1 bg-light">
+      <div class="row container justify-content-center mx-auto">
         Ваш Регион:
-        <span class="dropdown">
+        <div class="dropdown mr-5">
           <a class="dropdown-toggle text-primary" href="#" id="Dropdown" data-toggle="dropdown">
             Москва
           </a>
@@ -48,112 +46,111 @@
             <a class="dropdown-item" href="#">Link</a>
             <a class="dropdown-item" href="#">Link</a>
           </div>
-        </span>
-      </div>
-      <div class="col-3">
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Поиск по каталогу">
-          <div class="input-group-append">
-            <button class="btn btn-light" type="button">
-              <i class="fa fa-search"></i>
-            </button>
+        </div>
+        <div class="col-3">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск по каталогу">
+            <div class="input-group-append">
+              <button class="btn btn-light" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
           </div>
         </div>
+        <div class="col-2">+7(495)604-42-42
+        </div>
+        <div class="col-4">
+          <a class=" text-dark mr-5" href="#">Вход</a>
+          <a class="text-dark" href="#">Регистрация</a>
+        </div>
       </div>
-      <div class="col-2">
-        <span class=""> +7(495)604-42-42</span>
-      </div>
-      <div class="col-4">
-      <a class=" text-dark mr-2" href="#">Вход</a>
-      <a class="text-dark" href="#">Регистрация</a>
-      </div> 
     </div>
-  </div>
 
-<div class="row justify-content-center shadow p-1 mb-1">
-    <nav class="navbar navbar-expand-sm navbar-light">
-      <a class="navbar-brand" href="#">
-        <img src="../images/logo.jpg.png" alt="logo"></a>
-      <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown position-static">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
-              Каталог товаров
-            </a>
-            <div class="dropdown-menu">
-              <div class="row">
-                <div class="col-xl-3 border-right">
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                </div>
-                <div class="col-xl-3 border-right">
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                </div>
-                <div class="col-xl-3 border-right">
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                </div>
-                <div class="col-xl-3">
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
-                  <a class="dropdown-item" href="#">Link</a>
+
+    <div class="row justify-content-center shadow p-1 mb-1">
+      <nav class="navbar navbar-expand-sm navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="../images/logo.jpg.png" alt="logo" class="mr-5"></a>
+        <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown position-static">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" data-toggle="dropdown">
+                Каталог товаров
+              </a>
+              <div class="dropdown-menu">
+                <div class="row">
+                  <div class="col-xl-3 border-right">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                  </div>
+                  <div class="col-xl-3 border-right">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                  </div>
+                  <div class="col-xl-3 border-right">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                  </div>
+                  <div class="col-xl-3">
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                    <a class="dropdown-item" href="#">Link</a>
+                  </div>
                 </div>
               </div>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Акции</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">
-              Поддержка
-            </a>
-            <div class="dropdown-menu border-primary border-top-0 border-left-0 border-right-0">
-              <a class="dropdown-item" href="#">Гарантия</a>
-              <a class="dropdown-item" href="#">Услуги</a>
-              <a class="dropdown-item" href="#">Доставка</a>
-              <a class="dropdown-item" href="#">Оплата</a>
-              <a class="dropdown-item" href="#">Форум</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Партнерство</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Магазины</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark ml-5" href="#"><i class="fas fa-shopping-cart"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#"><i class="fas fa-heart"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#"><i class="fas fa-chart-bar"></i></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Акции</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">
+                Поддержка
+              </a>
+              <div class="dropdown-menu border-primary border-top-0 border-left-0 border-right-0">
+                <a class="dropdown-item" href="#">Гарантия</a>
+                <a class="dropdown-item" href="#">Услуги</a>
+                <a class="dropdown-item" href="#">Доставка</a>
+                <a class="dropdown-item" href="#">Оплата</a>
+                <a class="dropdown-item" href="#">Форум</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Партнерство</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Магазины</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark ml-5" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#"><i class="fas fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#"><i class="fas fa-chart-bar"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -196,35 +193,35 @@
   </div>
 
   </div>
-  <div class="row">
-    <div class="position-relative">
+  <div class="row justify-content-center">
+    <div class="position-relative col-sm-6 col-md-4 col-lg-2">
       <a href="#">
         <div class="position-absolute text-center text-white pt-5 mt-5 container h3">ЧАСЫ</div>
-        <img class="mr-2" src="../images/watch.jpg" alt="Часы" width="375" height="375">
+        <img class="img-fluid" src="../images/watch.jpg" alt="Часы">
       </a>
     </div>
-    <div class="position-relative">
+    <div class="position-relative col-sm-6 col-md-4 col-lg-2">
       <a href="#">
         <div class="position-absolute text-center text-white pt-5 mt-5 container h3">ТУРИЗМ</div>
-        <img class="mr-2" src="../images/tourism.jpg" alt="Туризм" width="375" height="375">
+        <img class="img-fluid" src="../images/tourism.jpg" alt="Туризм">
       </a>
     </div>
-    <div class="position-relative">
+    <div class="position-relative col-sm-6 col-md-4 col-lg-2">
       <a href="#">
         <div class="position-absolute text-center text-white pt-5 mt-5 container h3">МОРЕ</div>
-        <img class="mr-2" src="../images/sea.jpg" alt="Море" width="375" height="375">
+        <img class="img-fluid" src="../images/sea.jpg" alt="Море">
       </a>
     </div>
-    <div class="position-relative">
+    <div class="position-relative col-sm-6 col-md-4 col-lg-2">
       <a href="#">
         <div class="position-absolute text-center text-white pt-5 mt-5 container h3">ТРАНСПОРТ</div>
-        <img class="mr-2" src="../images/transport.jpg" alt="Транспорт" width="375" height="375">
+        <img class="img-fluid" src="../images/transport.jpg" alt="Транспорт">
       </a>
     </div>
-    <div class="position-relative">
+    <div class="position-relative col-sm-6 col-md-4 col-lg-2">
       <a href="#">
         <div class="position-absolute text-center text-white pt-5 mt-5 container h3">ACTION-КАМЕРЫ</div>
-        <img class="mr-2" src="../images/camera.jpg" alt="Туризм" width="375" height="375">
+        <img class="img-fluid" src="../images/camera.jpg" alt="Туризм">
       </a>
     </div>
   </div>
@@ -246,8 +243,10 @@
   </div>
   <div>
     <div class="position-absolute text-center text-white pt-5 mt-5 container h3">ПРИСОЕДИНЯЙСЯ К КЛУБУ
-      GARMIN BONUS</div>
-    <div type="button" class="btn btn-outline-light position-absolute text-center text-white pt-5 mt-5">УЗНАТЬ БОЛЬШЕ
+      GARMIN BONUS
+    </div>
+    <div type="button" class="btn btn-outline-light position-absolute text-center text-white pt-5 mt-5">УЗНАТЬ
+      БОЛЬШЕ
     </div>
     <img class="d-block w-100" src="../images/banner.jpg" alt="Туризм">
   </div>
@@ -283,150 +282,179 @@
     <h1>Навигатор garmin nuvi как лучший вариант современного навигационного устройства в автомобиле</h1>
     <p>Автомобильная навигация сегодня - одна из самых востребованных сфер дополнительного оборудования личного
       транспорта. Действительно, в огромном мегаполисе время - деньги, и поэтому так важно суметь объехать
-      многокилометровую пробку, найти нужный адрес и узнать местонахождение ближайшей заправки или гостиницы. Для
-      решения этих, а также многих других задач необходимо купить gps навигатор. Мы поможем сделать выбор в огромном
-      море современных гаджетов и найти тот вариант, который нужен именно вам. Итак, на какие технические характеристики
-      необходимо обратить внимание при покупке? Мы рассмотрим основные параметры современных навигационных устройств и
+      многокилометровую пробку, найти нужный адрес и узнать местонахождение ближайшей заправки или гостиницы.
+      Для
+      решения этих, а также многих других задач необходимо купить gps навигатор. Мы поможем сделать выбор в
+      огромном
+      море современных гаджетов и найти тот вариант, который нужен именно вам. Итак, на какие технические
+      характеристики
+      необходимо обратить внимание при покупке? Мы рассмотрим основные параметры современных навигационных
+      устройств и
       проанализируем, на каком бренде стоит остановить свой выбор.</p>
   </div>
   <div class="container mt5">
     <h1>Технические характеристики:</h1>
-    <ul class="nav flex-column">
-      <ul class="nav-item">
-        <li>
-          <p>Дисплей. Сегодняшний рынок автоэлектроники предлагает навигаторы с диагональю экрана от 2,7 до 7 дюймов.
-            Важным параметром является также и разрешение дисплея, которое варьируется от от 320х240 пикселей до 800х480
-            пикселей. Логично остановить свой выбор на приборе, который позволит рассмотреть все подсказки и указатели
-            на экране, но при этом</p>
-        </li>
-        <li>
-          <p>Не будет мешать обзору и загораживать лобовое стекло. Среди нашего ассортимента вы можете подобрать
-            навигатор garmin с удобной для вас диагональю дисплея. Также важно наличие "антибликовости" дисплея для
-            того, чтобы изображение было хорошо видно в любую погоду, даже при ярком летнем солнце;</p>
-        </li>
-        <li>
-          <p>Картография. Важный фактор при выборе автомобильного устройства для навигации в пути - какие карты
-            встроены в него. Garmin предоставляет уникальные фирменные карты высокой точности и широчайшего охвата.
-            Вы можете полностью положиться на нашу надежность, ведь мы предоставляем подробное покрытие практически
-            всех регионов РФ;</p>
-        </li>
-        <li>
-          <p>Процессор. Чипсет, который осуществляет вычисления по определению координат и принимает сигнал от
-            спутника. Современные гаджеты в большинстве своем оснащены чипами SiRF Star III, SiRF Atlas III, SiRF
-            Atlas IV и SiRF 3i+ 600 Мгц.;</p>
-        </li>
-        <li>
-          <p>Пробки. Наличие пробочного сервиса в современном навигаторе уже стало признаком хорошего тона, ибо
-            в современного многомиллионном городе возможность миновать пробку придется как нельзя кстати. Гармин
-            в свои гаджеты встраивает фирменные системы объезда заторов, позволяя получать пользователям только
-            самую свежую информацию;</p>
-        </li>
-        <li>
-          <p>Голосовые подсказки. Способность гаджета озвучивать направление движения, необходимые повороты и
-            другие ориентиры на местности. Современный навигатор гармин любой модели поддерживает эту
-            чрезвычайно удобную для водителя функцию;</p>
-        </li>
-        <li>
-          <p>Голосовое управление. Возможность отдавать распоряжения устройству с помощью собственного
-            голоса, не отвлекаясь на прикосновения к дисплею. Подавляющее большинство устройств из серии
-            garmin nuvi поддерживают эту функцию;</p>
-        </li>
-        <li>
-          <p>Handsfree. Для реализации возможности совершать телефонные переговоры в автомобиле, не
-            отрывая рук от руля, необходимо наличие в приборе качественного микрофона, динамика, а также
-            поддержки Bluetooth-соединения. Если вы решите купить garmin, то убедитесь, что данная функция
-            воплощена в наших устройствах на высоком уровне;</p>
-        </li>
-        <li>
-          <p>Надежность сборки аппарата. Качество материала, из которого он изготовлен, устойчивость
-            корпуса устройства к физическому воздействию, а также уровень влагозащиты;</p>
-        </li>
-        <li>
-          <p>Объем памяти. От этого показателя зависит, какое количество картографической информации
-            прибор сможет принять.</p>
-        </li>
-      </ul>
+    <ul class="nav-item">
+      <li>
+        <p>Дисплей. Сегодняшний рынок автоэлектроники предлагает навигаторы с диагональю экрана от 2,7 до 7
+          дюймов.
+          Важным параметром является также и разрешение дисплея, которое варьируется от от 320х240
+          пикселей до 800х480
+          пикселей. Логично остановить свой выбор на приборе, который позволит рассмотреть все подсказки и
+          указатели
+          на экране, но при этом</p>
+      </li>
+      <li>
+        <p>Не будет мешать обзору и загораживать лобовое стекло. Среди нашего ассортимента вы можете
+          подобрать
+          навигатор garmin с удобной для вас диагональю дисплея. Также важно наличие "антибликовости"
+          дисплея для
+          того, чтобы изображение было хорошо видно в любую погоду, даже при ярком летнем солнце;</p>
+      </li>
+      <li>
+        <p>Картография. Важный фактор при выборе автомобильного устройства для навигации в пути - какие
+          карты
+          встроены в него. Garmin предоставляет уникальные фирменные карты высокой точности и широчайшего
+          охвата.
+          Вы можете полностью положиться на нашу надежность, ведь мы предоставляем подробное покрытие
+          практически
+          всех регионов РФ;</p>
+      </li>
+      <li>
+        <p>Процессор. Чипсет, который осуществляет вычисления по определению координат и принимает сигнал от
+          спутника. Современные гаджеты в большинстве своем оснащены чипами SiRF Star III, SiRF Atlas III,
+          SiRF
+          Atlas IV и SiRF 3i+ 600 Мгц.;</p>
+      </li>
+      <li>
+        <p>Пробки. Наличие пробочного сервиса в современном навигаторе уже стало признаком хорошего тона,
+          ибо
+          в современного многомиллионном городе возможность миновать пробку придется как нельзя кстати.
+          Гармин
+          в свои гаджеты встраивает фирменные системы объезда заторов, позволяя получать пользователям
+          только
+          самую свежую информацию;</p>
+      </li>
+      <li>
+        <p>Голосовые подсказки. Способность гаджета озвучивать направление движения, необходимые повороты и
+          другие ориентиры на местности. Современный навигатор гармин любой модели поддерживает эту
+          чрезвычайно удобную для водителя функцию;</p>
+      </li>
+      <li>
+        <p>Голосовое управление. Возможность отдавать распоряжения устройству с помощью собственного
+          голоса, не отвлекаясь на прикосновения к дисплею. Подавляющее большинство устройств из серии
+          garmin nuvi поддерживают эту функцию;</p>
+      </li>
+      <li>
+        <p>Handsfree. Для реализации возможности совершать телефонные переговоры в автомобиле, не
+          отрывая рук от руля, необходимо наличие в приборе качественного микрофона, динамика, а также
+          поддержки Bluetooth-соединения. Если вы решите купить garmin, то убедитесь, что данная функция
+          воплощена в наших устройствах на высоком уровне;</p>
+      </li>
+      <li>
+        <p>Надежность сборки аппарата. Качество материала, из которого он изготовлен, устойчивость
+          корпуса устройства к физическому воздействию, а также уровень влагозащиты;</p>
+      </li>
+      <li>
+        <p>Объем памяти. От этого показателя зависит, какое количество картографической информации
+          прибор сможет принять.</p>
+      </li>
+    </ul>
   </div>
   <div class="container mt5">
-    <p>Приятные бонусы. Мы обладаем огромным опытом по созданию различного рода навигационных устройств и поэтому для
-      удобства пользователей разработали множество фирменных дополнений, которые помогают с легкостью ориентироваться на
+    <p>Приятные бонусы. Мы обладаем огромным опытом по созданию различного рода навигационных устройств и
+      поэтому для
+      удобства пользователей разработали множество фирменных дополнений, которые помогают с легкостью
+      ориентироваться на
       незнакомой местности. Перечислим некоторые из них.</p>
   </div>
   <div class="container mt5">
     <h1>Наши навигационные "фишки":</h1>
-    <ul class="nav flex-column">
-      <ul class="nav-item">
-        <li>
-          <p>Lane Assist и Active Lane Guidance - помощь в выборе верной полосы движения при движении на транспортной
-            развязке.</p>
-        </li>
-        <li>
-          <p>Подсказки по выбору полосы могут быть озвучены навигатором или же показаны на дисплее с помощью ярких
-            стрелок (по вашему усмотрению);</p>
-        </li>
-        <li>
-          <p>Bird’s Eye - возможность посмотреть на транспортную развязку с высоты для того, чтобы лучше понять, как
-            осуществить маневр;</p>
-        </li>
-        <li>
-          <p>PhotoReal - фотореалистичное изображение транспортных развязок, привязанное к ориентирам на местности,
-            дорожным знакам и указателям;</p>
-        </li>
-        <li>
-          <p>Garmin Traffic - Фирменная технология получения информации о пробках, самом быстром варианте их объезда, а
-            также точного времени прибытия в пункт назначения;</p>
-        </li>
-        <li>
-          <p>Garmin Real Voice™ - технология, которая позволила сделать голос устройства дружественным и естественным;
-          </p>
-        </li>
-        <li>
-          <p>Garmin Real Directions™ - функция, помогающая ориентироваться на местности с помощью заметных
-            достопримечательностей (к примеру, гаджет посоветует вам свернуть направо после трехэтажного здания школы);
-          </p>
-        </li>
-        <li>
-          <p>Garmin Live Services - программа, предоставляющая доступ к самой свежей информации о погоде, дорожной
-            обстановке и другим полезным сведениям;</p>
-        </li>
-        <li>
-          <p>EcoRoute - возможность контроля расхода топлива и подбор наиболее оптимального режима вождения для его
-            экономии.</p>
-        </li>
-      </ul>
+    <ul class="nav-item">
+      <li>
+        <p>Lane Assist и Active Lane Guidance - помощь в выборе верной полосы движения при движении на
+          транспортной
+          развязке.</p>
+      </li>
+      <li>
+        <p>Подсказки по выбору полосы могут быть озвучены навигатором или же показаны на дисплее с помощью
+          ярких
+          стрелок (по вашему усмотрению);</p>
+      </li>
+      <li>
+        <p>Bird’s Eye - возможность посмотреть на транспортную развязку с высоты для того, чтобы лучше
+          понять, как
+          осуществить маневр;</p>
+      </li>
+      <li>
+        <p>PhotoReal - фотореалистичное изображение транспортных развязок, привязанное к ориентирам на
+          местности,
+          дорожным знакам и указателям;</p>
+      </li>
+      <li>
+        <p>Garmin Traffic - Фирменная технология получения информации о пробках, самом быстром варианте их
+          объезда, а
+          также точного времени прибытия в пункт назначения;</p>
+      </li>
+      <li>
+        <p>Garmin Real Voice™ - технология, которая позволила сделать голос устройства дружественным и
+          естественным;
+        </p>
+      </li>
+      <li>
+        <p>Garmin Real Directions™ - функция, помогающая ориентироваться на местности с помощью заметных
+          достопримечательностей (к примеру, гаджет посоветует вам свернуть направо после трехэтажного
+          здания школы);
+        </p>
+      </li>
+      <li>
+        <p>Garmin Live Services - программа, предоставляющая доступ к самой свежей информации о погоде,
+          дорожной
+          обстановке и другим полезным сведениям;</p>
+      </li>
+      <li>
+        <p>EcoRoute - возможность контроля расхода топлива и подбор наиболее оптимального режима вождения
+          для его
+          экономии.</p>
+      </li>
+    </ul>
   </div>
 
-  </div>
   <div class="container mt5">
     <h1>Наши преимущества:</h1>
-    <ul class="nav flex-column">
-      <ul class="nav-item">
-        <li>
-          <p>Навигация - главное. Высококачественная картография и регулярное обновление карт. Самые актуальные данные с
-            учетом новых правил дорожного движения и новых застроек;</p>
-        </li>
-        <li>
-          <p>Удобный и функциональный интерфейс. Легкое интуитивное управление, высокая скорость отклика сенсорного
-            экрана и построения маршрута;</p>
-        </li>
-        <li>
-          <p>Стильный эргономичный дизайн на любой вкус. Возможность подобрать гаджет, который идеально впишется в салон
-            вашего авто;</p>
-        </li>
-        <li>
-          <p>Широчайший модельный ряд. Подберите необходимое именно вам сочетание функционала, стоимости и дизайна;</p>
-        </li>
-        <li>
-          <p>За качество отвечаем. Мы предоставляем 2 года гарантии на всю свою продукцию потому что абсолютно уверены в
-            ее качестве.</p>
-        </li>
-      </ul>
+    <ul class="nav-item">
+      <li>
+        <p>Навигация - главное. Высококачественная картография и регулярное обновление карт. Самые
+          актуальные данные с
+          учетом новых правил дорожного движения и новых застроек;</p>
+      </li>
+      <li>
+        <p>Удобный и функциональный интерфейс. Легкое интуитивное управление, высокая скорость отклика
+          сенсорного
+          экрана и построения маршрута;</p>
+      </li>
+      <li>
+        <p>Стильный эргономичный дизайн на любой вкус. Возможность подобрать гаджет, который идеально
+          впишется в салон
+          вашего авто;</p>
+      </li>
+      <li>
+        <p>Широчайший модельный ряд. Подберите необходимое именно вам сочетание функционала, стоимости и
+          дизайна;</p>
+      </li>
+      <li>
+        <p>За качество отвечаем. Мы предоставляем 2 года гарантии на всю свою продукцию потому что абсолютно
+          уверены в
+          ее качестве.</p>
+      </li>
+    </ul>
   </div>
-  </div>
+
   <div class="container mt5">
     <p>Итак, если вы решили "куплю навигатор гармин" - это верное решение. Теперь осталось определиться с еще
       одним моментом - в каком месте на навигаторы гармин цены соответствуют реальности и не включают в себя
-      накрутки от многочисленных ритейлеров? Естественно, у самого производителя. А поскольку наш интернет магазин
+      накрутки от многочисленных ритейлеров? Естественно, у самого производителя. А поскольку наш интернет
+      магазин
       входит в сеть фирменных магазинов, то мы предоставляем все преимущества приобретения у мирового лидера в
       производстве навигации.</p>
   </div>
@@ -434,93 +462,101 @@
 
   <div class="container mt5">
     <h1>Наши плюсы:</h1>
-    <ul class="nav flex-column">
-      <ul class="nav-item">
-        <li>
-          <p>Возможность снять пробу. В наших фирменных шоу-румах можно тщательно рассмотреть и протестировать любое
-            заинтересовавшее вас устройство;</p>
-        </li>
-        <li>
-          <p>Уникальный постпродажный сервис. Мы разъясним, уточним и ответим на любые вопросы относительно
-            особенностей работы нашей продукции, обновим программное обеспечение, зальем новые карты в ваш аппарат, и
-            все это - абсолютно бесплатно;</p>
-        </li>
-        <li>
-          <p>Выгода. Мы проводим регулярные разнообразные акции, воспользовавшись которыми вы сможете приобрести
-            необходимое вам устройство по выгодной цене и с наилучшими условиями.</p>
-        </li>
-      </ul>
-   <footer>   
+    <ul class="nav-item">
+      <li>
+        <p>Возможность снять пробу. В наших фирменных шоу-румах можно тщательно рассмотреть и протестировать
+          любое
+          заинтересовавшее вас устройство;</p>
+      </li>
+      <li>
+        <p>Уникальный постпродажный сервис. Мы разъясним, уточним и ответим на любые вопросы относительно
+          особенностей работы нашей продукции, обновим программное обеспечение, зальем новые карты в ваш
+          аппарат, и
+          все это - абсолютно бесплатно;</p>
+      </li>
+      <li>
+        <p>Выгода. Мы проводим регулярные разнообразные акции, воспользовавшись которыми вы сможете
+          приобрести
+          необходимое вам устройство по выгодной цене и с наилучшими условиями.</p>
+      </li>
+    </ul>
   </div>
-  <div class="bg-light border-bottom">
-    <div class="container bg-light mt-5 mx-auto">
-      <h5>Подпишись на рассылку</h5>
-      <p>Подпишитесь и узнавайте про акции и особые условия первыми</p>
-      <nav class="navbar navbar-expand-sm">
-        <form class="form-inline" action="/action_page.php">
-          <input class="form-control" type="text" placeholder="Введите ваш Email">
-          <button class="btn btn-primary" type="submit">></button>
-        </form>
-      </nav>
-      <label class="form-check-label" for="check1">
-        <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>Я даю
-        согласие на <a href="">обработку моих персональных данных.</a>
-    </div>
-  </div>
-  <div class="bg-light">
-    <div class="container row bg-light pt-3 mx-auto">
-      <div class="col">
-        <b>ПОДДЕРЖКА</b>
-        <br>
-        <a href="">Гарантия</a>
-        <br>
-        <a href="">Услуги</a>
-        <br>
-        <a href="">Доставка</a>
-        <br>
-        <a href="">Оплата</a>
-      </div>
-      <div class="col">
-        <b>Партнерство</b>
-        <br>
-        <a href="">Франчайзинг</a>
-        <br>
-        <b>GARMIN BONUS</b>
-        <br>
-        <a href="">Получай скидки!</a>
-      </div>
-      <div class="col">
-        <b>КОМПАНИЯ GARMIN</b>
-        <br>
-        <a href="">О компании</a>
-        <br>
-        <a href="">Акции</a>
-        <br>
-        <a href="">Новости</a>
-        <br>
-        <a href="">Блог</a>
-        <br>
-        <a href="">Форум</a>
-        <br>
-        <a href="">Магазины</a>
-        <br>
-      </div>
-      <div class="col">
-        <b>ЗАКАЗ С ДОСТАВКОЙ ПО РОССИИ</b>
-        <br>
-        <h5>+7 (495) 604-42-42</h5>
-      </div>
-      <div class="col">
-        <a href=""><i class="fa-brands fa-vk"></i></a>
-        <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+  <footer>
+
+    <div class="mt-5 shadow p-1 mb-1 bg-light">
+      <div class="container mx-auto text-center">
+        <h5>Подпишись на рассылку</h5>
+        <p>Подпишитесь и узнавайте про акции и особые условия первыми</p>
+        <div class="row">
+          <form class="form-inline mx-auto mb-5 mt-5" action="/action_page.php">
+            <input class="form-control" type="text" placeholder="Введите ваш Email">
+            <button class="btn btn-primary" type="submit">></button>
+          </form>
+        </div>
+        <label class="form-check-label" for="check1">
+          <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>Я даю
+          согласие на <a href="">обработку моих персональных данных.</a>
       </div>
     </div>
-    <br>
-    <br>
-    <div class="container">© 2011 - 2022 АО "НАВИКОМ", Authorized Garmin distributor, лицензиат товарного знака Garmin
-      для розничной торговли.
-      Политика защиты и обработки персональных данных АО "НАВИКОМ".
+
+    <div class="bg-light">
+      <div class="container row bg-light pt-3 mx-auto">
+        <div class="col">
+          <b>ПОДДЕРЖКА</b>
+          <br>
+          <a href="">Гарантия</a>
+          <br>
+          <a href="">Услуги</a>
+          <br>
+          <a href="">Доставка</a>
+          <br>
+          <a href="">Оплата</a>
+        </div>
+        <div class="col">
+          <b>Партнерство</b>
+          <br>
+          <a href="">Франчайзинг</a>
+          <br>
+          <b>GARMIN BONUS</b>
+          <br>
+          <a href="">Получай скидки!</a>
+        </div>
+        <div class="col">
+          <b>КОМПАНИЯ GARMIN</b>
+          <br>
+          <a href="">О компании</a>
+          <br>
+          <a href="">Акции</a>
+          <br>
+          <a href="">Новости</a>
+          <br>
+          <a href="">Блог</a>
+          <br>
+          <a href="">Форум</a>
+          <br>
+          <a href="">Магазины</a>
+          <br>
+        </div>
+        <div class="col">
+          <b>ЗАКАЗ С ДОСТАВКОЙ ПО РОССИИ</b>
+          <br>
+          <h5>+7 (495) 604-42-42</h5>
+        </div>
+        <div class="col">
+          <a href=""><i class="fa-brands fa-vk"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="container">© 2011 - 2022 АО "НАВИКОМ", Authorized Garmin distributor, лицензиат товарного
+        знака Garmin
+        для розничной торговли.
+        Политика защиты и обработки персональных данных АО "НАВИКОМ".
+      </div>
     </div>
-</footer>
+  </footer>
 </body>
+
 </html>
