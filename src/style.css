@@ -1,15 +1,19 @@
 .images:hover .test {
     overflow: hidden;
     transform: scale(0.9, 0.9);
+    transition: .5s ease-in-out;
+    transition-delay: .5s;
 }
 
 .images:hover {
     background: rgba(0, 0, 0, 0.75);
+    transition-delay: .5s;
 }
 
 .images:hover img {
     transform: scale(1.4, 1.4) rotate(-5deg);
-    transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+    transition-delay: .5s;
 }
 
 
@@ -45,4 +49,24 @@
     background-color: transparent;
     border-color: #b3b3b3;
     color: #b3b3b3;
+}
+
+.images-first div {
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    padding-top: 75%;
+    text-align: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    transition-delay: 0.5s;
+}
+.images-first:hover div {
+    padding-top: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    transition-delay: 0.5s;
+     
 }
