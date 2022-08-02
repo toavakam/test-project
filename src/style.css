@@ -55,7 +55,7 @@
     color: #b3b3b3;
 }
 
-.images-first div {
+.images-first .images-text {
     color: #fff;
     position: absolute;
     padding-bottom: 25%;
@@ -64,15 +64,24 @@
     left: 0;
     bottom: 0;
     margin: auto;
-}
-.images-first:hover div {
-    padding-bottom: 50%;
-    z-index: 2;
     transition: .5s ease-in-out;
-     
+    z-index: 2;
+}
+.images-first:hover .images-text {
+    padding-bottom: 50%;
+    transition: .5s ease-in-out;   
+}
+.images-first img {
+    transition: .5s ease-in-out;    
 }
 .images-first:hover img {
-    filter: brightness(25%);
-    z-index: 1;
+    opacity: 0.25;
     transition: .5s ease-in-out;    
+}
+.images-first:hover .images-image {
+    background: rgb(0, 0, 0);
+    transition: .5s ease-in-out;
+}
+.images-first .images-image {
+    transition: .5s ease-in-out;
 }
