@@ -64,6 +64,10 @@
     margin: auto;
     transition: .5s ease-in-out;
 }
+.images-first{
+    padding: 0 !important;
+    margin: 0 15px 1rem 15px !important;
+}
 .images-first:hover .images-text {
     padding-bottom: 50%;
     transition: .5s ease-in-out;   
@@ -78,11 +82,10 @@
     background: rgba(0, 0, 0, 0.75);
     transition: .5s ease-in-out;
 }
-.images-first .images-image {
+.images-image {
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     transition: .5s ease-in-out;
-    overflow: hidden;
 }
