@@ -83,7 +83,7 @@
 .main{
     border: solid;
     border-width: 1px;
-    border-color: grey;
+    border-color: #e6e6e6;
 }
 .main:hover{
 box-shadow: 2px 2px 20px 2px grey;
@@ -92,7 +92,7 @@ box-shadow: 2px 2px 20px 2px grey;
     text-decoration: line-through;
 }
 .btn{
-    width: 200px;
+
 }
 .stars{
     opacity: 0.5;
